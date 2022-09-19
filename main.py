@@ -8,7 +8,7 @@ def function_one(my_string):
 
 def function_two(all_integers):
     largest = 0
-    for i in range(len(all_integers) - 1):
+    for i in range(len(all_integers)):
         if integers[i] > largest:
             largest = integers[i]
     return largest
