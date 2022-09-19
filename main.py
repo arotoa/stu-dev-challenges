@@ -9,8 +9,8 @@ def function_one(my_string):
 def function_two(all_integers):
     largest = 0
     for i in range(len(all_integers) - 1):
-        if integers[i + 1] > integers[i]:
-            largest = integers[i + 1]
+        if integers[i] > largest:
+            largest = integers[i]
     return largest
 
 
@@ -32,9 +32,10 @@ def function_four(n):
 
 
 if __name__ == '__main__':
-    string = "string"
+    string = "I like poop"
     print(function_one(string))
-    integers = [1, 3, 2]
+    integers = [1, 3, 2, 89, 56, 23543245, 6756, 2355, 336457567, 34464567467, 46765756, 7567, 535, 635, 645, 3654, 67,
+                546]
     print(function_two(integers))
     print(function_three(3))
     print(function_four(3))
